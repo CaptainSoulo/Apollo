@@ -1,0 +1,216 @@
+{
+    "images":
+    {
+		"modpack":
+		{
+            "image" : "mainmenu:modpack.png",
+            "posX" : -125,
+            "posY" : -25,
+            "width" : 250,
+            "height" : 150,
+            "alignment" : "top_center"
+		}
+    },
+    
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "Singleplayer",
+            "posX" : -10,
+            "posY" : -28,
+			"textOffsetX" : 0,
+            "width" : 98,
+            "height" : 14,
+            "normalTextColor" : -1,
+			"hoverTextColor" : 10027008,
+			"alignment" : "left_center",
+			"texture" : "mainmenu:blankbutton.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },        
+        "multiplayer":
+        {
+            "text" : "Multiplayer",
+            "posX" : -13,
+            "posY" : -14,
+			"textOffsetX" : 0,
+            "width" : 98,
+            "height" : 14,
+            "normalTextColor" : -1,
+			"hoverTextColor" : 10027008,
+			"alignment" : "left_center",
+			"texture" : "mainmenu:blankbutton.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+        "options":
+        {
+            "text" : "Options",
+            "posX" : -19,
+            "posY" : 0,
+			"textOffsetX" : 0,
+            "width" : 98,
+            "height" : 14,
+            "normalTextColor" : -1,
+			"hoverTextColor" : 10027008,
+			"alignment" : "left_center",
+			"texture" : "mainmenu:blankbutton.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },		
+        "mods":
+        {
+            "text" : "Mods",
+            "posX" : -23,
+            "posY" : 14,
+			"textOffsetX" : 0,
+            "width" : 98,
+            "height" : 14,
+            "normalTextColor" : -1,
+			"hoverTextColor" : 10027008,
+			"alignment" : "left_center",
+			"texture" : "mainmenu:blankbutton.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+        "language":
+        {
+            "text" : "Language",
+            "posX" : -14,
+            "posY" : 28,
+			"textOffsetX" : 0,
+            "width" : 98,
+            "height" : 14,
+            "normalTextColor" : -1,
+			"hoverTextColor" : 10027008,
+			"alignment" : "left_center",
+			"texture" : "mainmenu:blankbutton.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+        },
+        "discord":
+        {
+            "text" : "Join Our Discord",
+            "posX" : 0,
+            "posY" : 64,
+			"textOffsetX" : 0,
+            "width" : 98,
+            "height" : 14,
+            "normalTextColor" : -1,
+			"hoverTextColor" : 10027008,
+			"alignment" : "left_center",
+			"texture" : "mainmenu:blankbutton.png",
+            "action" : 
+            {
+                "type" : "openLink",
+				"link" : "https://discord.gg/Qz8zGjD"
+            }
+        },					        
+        "quit":
+        {
+            "text" : "Quit",
+            "posX" : -26,
+            "posY" : 42,
+			"textOffsetX" : 0,
+            "width" : 98,
+            "height" : 14,
+            "normalTextColor" : -1,
+			"hoverTextColor" : 10027008,
+			"alignment" : "left_center",
+			"texture" : "mainmenu:blankbutton.png",
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        },	        
+        "refresh":
+        {
+            "text" : "",
+            "posX" : -20,
+            "posY" : 0,
+            "width" : 20,
+            "height" : 20,
+			"alignment" : "top_right",
+            "texture" : "mainmenu:refresh.png",
+            "action" : 
+            {
+                "type" : "refresh"
+            }
+        }	
+    },
+    
+    "labels":
+    {
+		"creators":{
+			"text" : "Modpack created by Apollo Dev Team",
+            "posX" : 2,
+            "posY" : -7,
+			"fontSize" : .6,
+            "color" : -1,
+			"hoverColor" : -1,
+            "alignment" : "bottom_left"
+		},
+		"forge":{
+			"text" : "Forge #forgeversion#",
+            "posX" : 2,
+            "posY" : -21,
+			"fontSize" : .6,
+            "color" : -1,
+			"hoverColor" : -1,
+            "alignment" : "bottom_left"
+		},
+		"modsloaded":{
+			"text" : "#modsloaded# Mods Loaded",
+            "posX" : 2,
+            "posY" : -14,
+			"fontSize" : .6,
+            "color" : -1,
+			"hoverColor" : -1,
+            "alignment" : "bottom_left"
+		},
+		"minecraft":{
+			"text" : "Minecraft 1.12.2",
+            "posX" : -42,
+            "posY" : -13,
+			"fontSize" : .6,
+            "color" : -1,
+			"hoverColor" : -1,
+            "alignment" : "bottom_right"
+		},
+		"mojang":
+        {
+            "text" : "Copyright Mojang AB",
+            "posX" : -55,
+            "posY" : -7,
+			"fontSize" : .6,
+            "color" : -1,
+			"hoverColor" : -1,
+            "alignment" : "bottom_right"
+        }
+    },
+    
+    "other":
+    {
+		"background":
+		{
+			"image" : "mainmenu:background.png",
+			"mode" : "fill"
+		}
+    }
+}

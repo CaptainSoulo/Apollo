@@ -1,0 +1,217 @@
+[
+	{
+		"type": "_comment",
+		"identifier": "Comment#1",
+		"01": "You can add or modify entries here. Enabled blocks will be applied only in the Mining World.",
+		"02": "Changes will be applied when restarting the game or using the command /dimensionalworld reloadconfig",
+		"03": "All blocks need to have a type and a identifier field and can have a enabled field",
+		"04": "The identifier can be freely chosen, but needs to be unique",
+		"05": "All block specifications have the format modid:blockname:metadata",
+		"06": "Look at the examples given below to get more information on how to use this file."
+	},
+	{
+		"type": "oreGen",
+		"identifier": "clay_ore",
+		"enabled": false,
+		"amount": 0.5,
+		"size": 20,
+		"minHeight": 60,
+		"maxHeight": 80,
+		"ore": "aroma1997sdimension:miningore:1"
+	},
+	{
+		"type": "oreGen",
+		"identifier": "copper_ore",
+		"enabled": true,
+		"amount": 8.0,
+		"size": 5,
+		"minHeight": 20,
+		"maxHeight": 80,
+		"ore": "thermalfoundation:ore"
+	},
+	{
+		"type": "oreGen",
+		"identifier": "tin_ore",
+		"enabled": true,
+		"amount": 8.0,
+		"size": 5,
+		"minHeight": 20,
+		"maxHeight": 80,
+		"ore": "thermalfoundation:ore:1"
+	},
+	{
+		"type": "oreGen",
+		"identifier": "silver_ore",
+		"enabled": true,
+		"amount": 2.0,
+		"size": 5,
+		"minHeight": 20,
+		"maxHeight": 80,
+		"ore": "thermalfoundation:ore:2"
+	},
+	{
+		"type": "oreGen",
+		"identifier": "lead_ore",
+		"enabled": true,
+		"amount": 8.0,
+		"size": 5,
+		"minHeight": 20,
+		"maxHeight": 80,
+		"ore": "thermalfoundation:ore:3"
+	},
+	{
+		"type": "oreGen",
+		"identifier": "aluminum_ore",
+		"enabled": true,
+		"amount": 4.0,
+		"size": 5,
+		"minHeight": 30,
+		"maxHeight": 80,
+		"ore": "thermalfoundation:ore:4"
+	},
+	{
+		"type": "oreGen",
+		"identifier": "nickel_ore",
+		"enabled": true,
+		"amount": 8.0,
+		"size": 5,
+		"minHeight": 30,
+		"maxHeight": 80,
+		"ore": "thermalfoundation:ore:5"
+	},
+	{
+		"type": "oreGen",
+		"identifier": "platinum_ore",
+		"enabled": true,
+		"amount": 2.0,
+		"size": 2,
+		"minHeight": 30,
+		"maxHeight": 80,
+		"ore": "thermalfoundation:ore:6"
+	},
+	{
+		"type": "oreGen",
+		"identifier": "iridium_ore",
+		"enabled": true,
+		"amount": 4.0,
+		"size": 5,
+		"minHeight": 30,
+		"maxHeight": 80,
+		"ore": "thermalfoundation:ore:7"
+	},
+	{
+		"type": "oreGen",
+		"identifier": "mithril_ore",
+		"enabled": true,
+		"amount": 4.0,
+		"size": 2,
+		"minHeight": 30,
+		"maxHeight": 80,
+		"ore": "thermalfoundation:ore:8"
+	},
+	{
+		"type": "oreGen",
+		"identifier": "yellorite_ore",
+		"enabled": true,
+		"amount": 8.0,
+		"size": 5,
+		"minHeight": 10,
+		"maxHeight": 80,
+		"ore": "bigreactors:oreyellorite"
+	},
+	{
+		"type": "oreGen",
+		"identifier": "osmium_ore",
+		"enabled": true,
+		"amount": 8.0,
+		"size": 5,
+		"minHeight": 10,
+		"maxHeight": 80,
+		"ore": "mekanism:oreblocks"
+	},
+	{
+		"type": "oreGen",
+		"identifier": "coal_ore_balance",
+		"enabled": true,
+		"amount": 0.5,
+		"size": 2,
+		"minHeight": 60,
+		"maxHeight": 80,
+		"ore": "minecraft:coal_ore"
+	},
+	{
+		"type": "oreGen",
+		"identifier": "iron_ore_balance",
+		"enabled": true,
+		"amount": 0.2,
+		"size": 2,
+		"minHeight": 30,
+		"maxHeight": 80,
+		"ore": "minecraft:iron_ore"
+	},
+	{
+		"type": "oreGen",
+		"identifier": "emerald_ore",
+		"enabled": true,
+		"amount": 6.0,
+		"size": 2,
+		"minHeight": 4,
+		"maxHeight": 28,
+		"ore": "minecraft:emerald_ore"
+	},
+	{
+		"type": "oreGen",
+		"identifier": "sticky_ore",
+		"enabled": false,
+		"amount": 2.0,
+		"size": 4,
+		"minHeight": 30,
+		"maxHeight": 80,
+		"ore": "aroma1997sdimension:miningore"
+	},
+	{
+		"type": "lakes",
+		"identifier": "lava_lake",
+		"enabled": false,
+		"targetBlock": "minecraft:lava"
+	},
+	{
+		"type": "lakes",
+		"identifier": "water_lake",
+		"enabled": false,
+		"targetBlock": "minecraft:water"
+	},
+	{
+		"type": "oreReplace",
+		"identifier": "removeDiamonds",
+		"enabled": false,
+		"targetBlock": "minecraft:stone",
+		"originalBlock": [
+			"minecraft:diamond_ore"
+		]
+	},
+	{
+		"type": "grass",
+		"identifier": "grass",
+		"enabled": false
+	},
+	{
+		"type": "oreReplace",
+		"identifier": "oreGenDebug",
+		"_comment": "If you want this to work properly, this needs to be the last block in the json file.",
+		"enabled": false,
+		"targetBlock": "minecraft:air",
+		"originalBlock": [
+			"minecraft:stone",
+			"minecraft:stone:1",
+			"minecraft:stone:2",
+			"minecraft:stone:3",
+			"minecraft:stone:4",
+			"minecraft:stone:5",
+			"minecraft:stone:6",
+			"minecraft:dirt",
+			"minecraft:grass",
+			"minecraft:gravel"
+		]
+	}
+]
