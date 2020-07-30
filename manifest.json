@@ -11,8 +11,8 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Apollo",
-  "version": "0.6rc2",
-  "author": "Captain_Soulo",
+  "version": "1.0",
+  "author": "nqblackbeard",
   "projectID": 344446,
   "files": [
     {
@@ -156,8 +156,18 @@
       "required": true
     },
     {
+      "projectID": 304022,
+      "fileID": 2830253,
+      "required": true
+    },
+    {
       "projectID": 287267,
       "fileID": 2645185,
+      "required": true
+    },
+    {
+      "projectID": 304024,
+      "fileID": 2830114,
       "required": true
     },
     {
@@ -166,8 +176,18 @@
       "required": true
     },
     {
+      "projectID": 254879,
+      "fileID": 2443623,
+      "required": true
+    },
+    {
       "projectID": 223628,
       "fileID": 2629023,
+      "required": true
+    },
+    {
+      "projectID": 229218,
+      "fileID": 2855967,
       "required": true
     },
     {
@@ -406,6 +426,16 @@
       "required": true
     },
     {
+      "projectID": 255232,
+      "fileID": 2830265,
+      "required": true
+    },
+    {
+      "projectID": 324508,
+      "fileID": 2830254,
+      "required": true
+    },
+    {
       "projectID": 282064,
       "fileID": 2553444,
       "required": true
@@ -478,11 +508,6 @@
     {
       "projectID": 260912,
       "fileID": 2745852,
-      "required": true
-    },
-    {
-      "projectID": 246391,
-      "fileID": 2710969,
       "required": true
     },
     {
@@ -806,6 +831,11 @@
       "required": true
     },
     {
+      "projectID": 297038,
+      "fileID": 2955510,
+      "required": true
+    },
+    {
       "projectID": 283644,
       "fileID": 2694382,
       "required": true
@@ -823,6 +853,11 @@
     {
       "projectID": 223328,
       "fileID": 2812983,
+      "required": true
+    },
+    {
+      "projectID": 244559,
+      "fileID": 2830252,
       "required": true
     },
     {

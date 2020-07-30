@@ -18,9 +18,6 @@ import crafttweaker.liquid.ILiquidStack;
 	recipes.remove(<thermalfoundation:armor.plate_bronze:0>);
 	recipes.remove(<thermalfoundation:armor.helmet_bronze:0>);
 	recipes.remove(<thermalfoundation:armor.boots_bronze:0>);
-	recipes.remove(<actuallyadditions:item_pickaxe_emerald:0>);
-	recipes.remove(<actuallyadditions:item_chest_emerald:0>);
-	recipes.remove(<actuallyadditions:item_pants_emerald:0>);
 	recipes.remove(<actuallyadditions:block_misc:5>);    // conflicts with <chisel:block_charcoal2:1>
 	recipes.remove(<mekanism:basicblock:3>);    // conflicts with <chisel:block_charcoal2:1>
 	
@@ -32,13 +29,33 @@ import crafttweaker.liquid.ILiquidStack;
 		[	null, 					<ore:stickWood>, 				null		 ]]
 	);
 	
-// Chicken Ring Fix
-	recipes.remove(<extrautils2:chickenring>);
-	recipes.addShaped(<extrautils2:chickenring>, 
-		[[<ore:feather>, <ore:ingotIron>, <ore:feather>], 
-		[<ore:ingotIron>, <extrautils2:goldenlasso>.withTag({Animal: {id: "animania:rooster_leghorn"}, Animal_Metadata: {Health: 6.0 as float, MaxHealth: 6.0 as float}, No_Place: 1 as byte}), <ore:ingotIron>], 
-		[<extrautils2:ingredients>, <ore:ingotIron>, <extrautils2:ingredients>]]
-	);
+val ringChicksEntry = <ore:ringChicks>;
+ringChicksEntry.add([
+	<extrautils2:goldenlasso>.withTag({Animal: {id: "minecraft:chicken"}, No_Place: 1 as byte}),
+
+	<extrautils2:goldenlasso>.withTag({Animal: {id: "animania:chick_leghorn"}, No_Place: 1 as byte}),
+    <extrautils2:goldenlasso>.withTag({Animal: {id: "animania:chick_orpington"}, No_Place: 1 as byte}),
+    <extrautils2:goldenlasso>.withTag({Animal: {id: "animania:chick_plymouth_rock"}, No_Place: 1 as byte}),
+    <extrautils2:goldenlasso>.withTag({Animal: {id: "animania:chick_rhode_island_red"}, No_Place: 1 as byte}),
+    <extrautils2:goldenlasso>.withTag({Animal: {id: "animania:chick_wyandotte"}, No_Place: 1 as byte}),
+
+    <extrautils2:goldenlasso>.withTag({Animal: {id: "animania:hen_leghorn"}, No_Place: 1 as byte}),
+    <extrautils2:goldenlasso>.withTag({Animal: {id: "animania:hen_orpington"}, No_Place: 1 as byte}),
+    <extrautils2:goldenlasso>.withTag({Animal: {id: "animania:hen_plymouth_rock"}, No_Place: 1 as byte}),
+    <extrautils2:goldenlasso>.withTag({Animal: {id: "animania:hen_rhode_island_red"}, No_Place: 1 as byte}),
+    <extrautils2:goldenlasso>.withTag({Animal: {id: "animania:hen_wyandotte"}, No_Place: 1 as byte}),
+
+    <extrautils2:goldenlasso>.withTag({Animal: {id: "animania:rooster_leghorn"}, No_Place: 1 as byte}),
+    <extrautils2:goldenlasso>.withTag({Animal: {id: "animania:rooster_orpington"}, No_Place: 1 as byte}),
+    <extrautils2:goldenlasso>.withTag({Animal: {id: "animania:rooster_plymouth_rock"}, No_Place: 1 as byte}),
+    <extrautils2:goldenlasso>.withTag({Animal: {id: "animania:rooster_rhode_island_red"}, No_Place: 1 as byte}),
+    <extrautils2:goldenlasso>.withTag({Animal: {id: "animania:rooster_wyandotte"}, No_Place: 1 as byte})
+]);
+recipes.removeShaped(<extrautils2:chickenring>);
+recipes.addShaped(<extrautils2:chickenring>, 
+[[<ore:feather>, <ore:ingotIron>, <ore:feather>], 
+[<ore:ingotIron>, ringChicksEntry, <ore:ingotIron>], 
+[<extrautils2:ingredients>, <ore:ingotIron>, <extrautils2:ingredients>]]);
 	
 // Quarry Shape Card Fix
 	recipes.remove(<rftools:shape_card:2>);
@@ -47,3 +64,4 @@ import crafttweaker.liquid.ILiquidStack;
 		[	<minecraft:iron_ingot>,	<rftools:shape_card>,	<minecraft:iron_ingot>			],
 		[	<minecraft:redstone>,	null,	<minecraft:redstone>							]]
 	);
+	

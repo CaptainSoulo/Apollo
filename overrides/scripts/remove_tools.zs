@@ -5,16 +5,8 @@ print("Removing Vanilla Items for Mods");
 //
 
 // Shovels
-recipes.remove(<actuallyadditions:item_shovel_crystal_red>);
-recipes.remove(<actuallyadditions:item_shovel_crystal_blue>);
-recipes.remove(<actuallyadditions:item_shovel_crystal_light_blue>);
-recipes.remove(<actuallyadditions:item_shovel_crystal_black>);
-recipes.remove(<actuallyadditions:item_shovel_crystal_green>);
-recipes.remove(<actuallyadditions:item_shovel_crystal_white>);
 recipes.remove(<appliedenergistics2:certus_quartz_spade>);
 recipes.remove(<appliedenergistics2:nether_quartz_spade>);
-//recipes.remove(<astralsorcery:itemcrystalshovel>);
-//recipes.remove(<astralsorcery:itemchargedcrystalshovel>);
 recipes.remove(<cyclicmagic:emerald_spade>);
 recipes.remove(<cyclicmagic:netherbrick_spade>);
 recipes.remove(<cyclicmagic:sandstone_spade>);
@@ -41,16 +33,8 @@ recipes.remove(<thermalfoundation:tool.shovel_copper>);
 
 
 // Pickaxes
-recipes.remove(<actuallyadditions:item_pickaxe_crystal_red>);
-recipes.remove(<actuallyadditions:item_pickaxe_crystal_blue>);
-recipes.remove(<actuallyadditions:item_pickaxe_crystal_light_blue>);
-recipes.remove(<actuallyadditions:item_pickaxe_crystal_black>);
-recipes.remove(<actuallyadditions:item_pickaxe_crystal_green>);
-recipes.remove(<actuallyadditions:item_pickaxe_crystal_white>);
 recipes.remove(<appliedenergistics2:certus_quartz_pickaxe>);
 recipes.remove(<appliedenergistics2:nether_quartz_pickaxe>);
-//recipes.remove(<astralsorcery:itemcrystalpickaxe>);
-//recipes.remove(<astralsorcery:itemchargedcrystalpickaxe>);
 recipes.remove(<cyclicmagic:emerald_pickaxe>);
 recipes.remove(<cyclicmagic:netherbrick_pickaxe>);
 recipes.remove(<cyclicmagic:sandstone_pickaxe>);
@@ -76,16 +60,8 @@ recipes.remove(<thermalfoundation:tool.pickaxe_tin>);
 recipes.remove(<thermalfoundation:tool.pickaxe_copper>);
 
 // Axes
-recipes.remove(<actuallyadditions:item_axe_crystal_red>);
-recipes.remove(<actuallyadditions:item_axe_crystal_blue>);
-recipes.remove(<actuallyadditions:item_axe_crystal_light_blue>);
-recipes.remove(<actuallyadditions:item_axe_crystal_black>);
-recipes.remove(<actuallyadditions:item_axe_crystal_green>);
-recipes.remove(<actuallyadditions:item_axe_crystal_white>);
 recipes.remove(<appliedenergistics2:certus_quartz_axe>);
 recipes.remove(<appliedenergistics2:nether_quartz_axe>);
-//recipes.remove(<astralsorcery:itemcrystalaxe>);
-//recipes.remove(<astralsorcery:itemchargedcrystalaxe>);
 recipes.remove(<cyclicmagic:emerald_axe>);
 recipes.remove(<cyclicmagic:netherbrick_axe>);
 recipes.remove(<cyclicmagic:sandstone_axe>);
@@ -106,12 +82,6 @@ recipes.remove(<thermalfoundation:tool.axe_tin>);
 recipes.remove(<thermalfoundation:tool.axe_copper>);
 
 // Hoes
-recipes.remove(<actuallyadditions:item_hoe_crystal_red>);
-recipes.remove(<actuallyadditions:item_hoe_crystal_blue>);
-recipes.remove(<actuallyadditions:item_hoe_crystal_light_blue>);
-recipes.remove(<actuallyadditions:item_hoe_crystal_black>);
-recipes.remove(<actuallyadditions:item_hoe_crystal_green>);
-recipes.remove(<actuallyadditions:item_hoe_crystal_white>);
 recipes.remove(<appliedenergistics2:certus_quartz_hoe>);
 recipes.remove(<appliedenergistics2:nether_quartz_hoe>);
 recipes.remove(<cyclicmagic:emerald_hoe>);
@@ -131,28 +101,10 @@ recipes.remove(<thermalfoundation:tool.hoe_lead>);
 recipes.remove(<thermalfoundation:tool.hoe_silver>);
 recipes.remove(<thermalfoundation:tool.hoe_tin>);
 recipes.remove(<thermalfoundation:tool.hoe_copper>);
-//recipes.remove(<tp:bone_hoe>);
-//recipes.remove(<tp:emerald_hoe>);
-//recipes.remove(<tp:nether_hoe>);
-//recipes.remove(<tp:nether_iron_hoe>);
-//recipes.remove(<tp:nether_gold_hoe>);
-//recipes.remove(<tp:nether_diamond_hoe>);
-//recipes.remove(<tp:wub_hoe>);
-//recipes.remove(<tp:obsidian_hoe>);
-//recipes.remove(<tp:flint_hoe>);
-//recipes.remove(<tp:bsc_iron_hoe>);
-//recipes.remove(<tp:bsc_gold_hoe>);
-//recipes.remove(<tp:bsc_diamond_hoe>);
+
 
 // Swords
-recipes.remove(<actuallyadditions:item_sword_emerald>);
-recipes.remove(<actuallyadditions:item_sword_obsidian>);
-recipes.remove(<actuallyadditions:item_sword_crystal_red>);
-recipes.remove(<actuallyadditions:item_sword_crystal_blue>);
-recipes.remove(<actuallyadditions:item_sword_crystal_light_blue>);
-recipes.remove(<actuallyadditions:item_sword_crystal_black>);
-recipes.remove(<actuallyadditions:item_sword_crystal_green>);
-recipes.remove(<actuallyadditions:item_sword_crystal_white>);
+
 recipes.remove(<appliedenergistics2:certus_quartz_sword>);
 recipes.remove(<appliedenergistics2:nether_quartz_sword>);
 recipes.remove(<immersiveengineering:sword_steel>);

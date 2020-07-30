@@ -133,7 +133,7 @@
 		"type": "oreGen",
 		"identifier": "coal_ore_balance",
 		"enabled": true,
-		"amount": 0.5,
+		"amount": 0.2,
 		"size": 2,
 		"minHeight": 60,
 		"maxHeight": 80,
@@ -158,6 +158,26 @@
 		"minHeight": 4,
 		"maxHeight": 28,
 		"ore": "minecraft:emerald_ore"
+	},
+	{
+		"type": "oreGen",
+		"identifier": "certus_quartz_ore",
+		"enabled": true,
+		"amount": 3.0,
+		"size": 1,
+		"minHeight": 10,
+		"maxHeight": 60,
+		"ore": "appliedenergistics2:tile.OreQuartz"
+	},
+	{
+		"type": "oreGen",
+		"identifier": "charged_certus_quartz_ore",
+		"enabled": true,
+		"amount": 1.5,
+		"size": 1,
+		"minHeight": 4,
+		"maxHeight": 28,
+		"ore": "appliedenergistics2:tile.OreQuartzCharged"
 	},
 	{
 		"type": "oreGen",
