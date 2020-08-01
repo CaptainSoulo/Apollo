@@ -133,8 +133,8 @@
 		"type": "oreGen",
 		"identifier": "coal_ore_balance",
 		"enabled": true,
-		"amount": 0.2,
-		"size": 2,
+		"amount": 0.5,
+		"size": 0.5,
 		"minHeight": 60,
 		"maxHeight": 80,
 		"ore": "minecraft:coal_ore"
@@ -164,7 +164,7 @@
 		"identifier": "certus_quartz_ore",
 		"enabled": true,
 		"amount": 3.0,
-		"size": 1,
+		"size": 2,
 		"minHeight": 10,
 		"maxHeight": 60,
 		"ore": "appliedenergistics2:tile.OreQuartz"
@@ -174,10 +174,60 @@
 		"identifier": "charged_certus_quartz_ore",
 		"enabled": true,
 		"amount": 1.5,
-		"size": 1,
+		"size": 2,
 		"minHeight": 4,
 		"maxHeight": 28,
 		"ore": "appliedenergistics2:tile.OreQuartzCharged"
+	},
+	{
+		"type": "oreGen",
+		"identifier": "eezo_ore",
+		"enabled": true,
+		"amount": 3,
+		"size": 2,
+		"minHeight": 2,
+		"maxHeight": 1,
+		"ore": "taiga:eezo_ore"
+	},
+	{
+		"type": "oreGen",
+		"identifier": "dilithium_ore",
+		"enabled": true,
+		"amount": 3,
+		"size": 2,
+		"minHeight": 20,
+		"maxHeight": 60,
+		"ore": "taiga:dilithium_ore"
+	},
+	{
+		"type": "oreGen",
+		"identifier": "vibranium_ore",
+		"enabled": true,
+		"amount": 3,
+		"size": 2,
+		"minHeight": 4,
+		"maxHeight": 28,
+		"ore": "taiga:vibranium_ore"
+	},
+	{
+		"type": "oreGen",
+		"identifier": "vibranium_ore",
+		"enabled": true,
+		"amount": 3,
+		"size": 2,
+		"minHeight": 0,
+		"maxHeight": 80,
+		"ore": "taiga:ovium_ore"
+	},
+	{
+		"type": "oreGen",
+		"identifier": "karmesine_ore",
+		"enabled": true,
+		"amount": 3,
+		"size": 2,
+		"minHeight": 10,
+		"maxHeight": 40,
+		"ore": "taiga:karmesine_ore"
 	},
 	{
 		"type": "oreGen",
@@ -208,6 +258,15 @@
 		"targetBlock": "minecraft:stone",
 		"originalBlock": [
 			"minecraft:diamond_ore"
+		]
+	},
+	{
+		"type": "oreReplace",
+		"identifier": "removeGravel",
+		"enabled": true,
+		"targetBlock": "minecraft:stone",
+		"originalBlock": [
+			"minecraft:gravel"
 		]
 	},
 	{
